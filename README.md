@@ -30,9 +30,10 @@ pip install -r requirements.txt*
 __Muhammad Asif__
 Master's Research Project | Edge Computing & Deep Learning Architectures
 
+
 ## Repository Structure
 The project is encapsulated within the `NLP_Term_Project` directory to maintain dependency links between the notebooks, weights, and interactive plots.
-
+For a deep dive into the mathematical architecture, methodology, and Pareto analysis, please see the **Technical Report PDF** included in this repository
 
 ```text
 NLP_Term_Project/
