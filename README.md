@@ -21,6 +21,11 @@ cd NLP_Term_Project
 pip install -r requirements.txt*
 (Note: Ensure you are using a virtual environment).
 
+## Usage
+1. Prepare the Data: Run YELP_OPEN_DATASET.ipynb to generate the training and testing CSVs.
+2. Load Dataset & Train: Run CURA_vs_CNN.ipynb to load the dataset, apply tokenization and starts training.
+3. View Interactive Results: Open the Results/  folder directly in any web browser to view the interactive Pareto efficiency and loss convergence plots.
+
 ## Author
 __Muhammad Asif__
 Master's Research Project | Edge Computing & Deep Learning Architectures
