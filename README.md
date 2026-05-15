@@ -8,8 +8,26 @@ This repository contains the code, trained weights, and interactive results for 
 
 Designed specifically for resource-constrained IoT and edge computing environments, this research demonstrates how temporal gating mechanisms (CURA) can replace brute-force spatial convolutions (1D-CNNs). The CURA model achieves a **99.25% reduction in parameter volume** (from 835k to 6k parameters) and a **31.3% acceleration in CPU inference latency**, while maintaining highly competitive predictive fidelity (0.944 F1-Score) on a highly imbalanced dataset.
 
+##Dataset
+This project utilizes the __Yelp Open Dataset__ (approx. 3.6 million samples).
+**Note:** Due to GitHub's file size constraints, the raw data files (5GB JSON / 2GB CSV) are not included in this repository.
+
+To reproduce the experiments, please run the notebook located at CODEBASE/YELP_OPEN_DATASET.ipynb. This script will automatically download the raw JSON, extract the relevant review text and metadata, and prepare the formatted CSV required for training.
+
+##Installation & Setup
+To run this project locally, clone the repository and install the required dependencies.
+*git clone [https://github.com/asif-AiML/NLP_Term_Project.git](https://github.com/asif-AiML/NLP_Term_Project.git)
+cd NLP_Term_Project
+pip install -r requirements.txt*
+(Note: Ensure you are using a virtual environment).
+
+##Author
+__Muhammad Asif__
+Master's Research Project | Edge Computing & Deep Learning Architectures
+
 ## Repository Structure
 The project is encapsulated within the `NLP_Term_Project` directory to maintain dependency links between the notebooks, weights, and interactive plots.
+
 
 ```text
 NLP_Term_Project/
